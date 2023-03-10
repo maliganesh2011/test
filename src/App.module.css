@@ -1,0 +1,85 @@
+body {
+	background-color: #000;
+	color: #fff;
+}
+
+.Game {
+	font: 16px "Century Gothic", Futura, sans-serif;
+	margin: 20px;
+	min-height: 260px;
+	background-color: #000;
+	color: #fff;
+}
+
+.Game ol,
+.Game ul {
+	padding-left: 30px;
+}
+
+.Squares {
+	display: flex;
+	flex-wrap: wrap;
+	width: 360px;
+	background-color: #000;
+	color: #fff;
+}
+
+.Titles {
+	font-size: 30px;
+  text-align: center;
+  padding-bottom: 10px;
+}
+
+.Status {
+	margin-bottom: 10px;
+  text-align: center;
+  color:yellow;
+  font-size:20px;
+}
+.Restarter {
+	text-align: center;
+}
+.Restart {
+  margin-top: 0px;
+  margin-bottom: 20px;
+	background-color: #3716db;
+	color: #fff;
+	border: none;
+	padding: 8px;
+	border-radius: 4px;
+	text-align: center;
+}
+
+.Square {
+	background: #fff;
+	border: 1px solid #999;
+	float: left;
+	font-size: 24px;
+	font-weight: bold;
+	line-height: 34px;
+	height: 34px;
+	margin-right: -1px;
+	margin-top: -1px;
+	padding: 0;
+	text-align: center;
+	width: 120px;
+	background-color: #000;
+	color: #fff;
+}
+
+.Square:focus {
+	outline: none;
+	background: #ddd;
+	background-color: #000;
+	color: #fff;
+}
+
+.Game {
+	display: flex;
+	flex-direction: row;
+}
+
+.GameInfo {
+	margin-left: 20px;
+	min-width: 190px;
+}
